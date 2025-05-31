@@ -178,4 +178,4 @@ def process_video():
     return send_file(output_highlight_path, as_attachment=True)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=8080)
